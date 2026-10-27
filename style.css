@@ -1,0 +1,85 @@
+
+/* ページ全体の基本設定 */
+body {
+    margin: 0;
+    font-family: Arial, "Meiryo", sans-serif;
+    background-color: #ffffff;
+}
+
+/* ヘッダー */
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: pink;
+}
+
+/* メインとサイドバーの配置 */
+.layout {
+    display: flex;
+    min-height: 400px;
+}
+
+/* サイドバー */
+aside {
+    width: 200px;
+    padding: 20px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+aside ul {
+    padding-left: 20px;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+/* メインコンテンツ */
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+}
+
+/* テーブル */
+table {
+    border: 3px solid #000000;
+    border-collapse: separate;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    border: 1px solid #666666;
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 40em;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* フッター */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: gray;
+}
+
+/* ボタン */
+button,
+input[type="submit"] {
+    cursor: pointer;
+}
